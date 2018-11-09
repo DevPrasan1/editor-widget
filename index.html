@@ -2,24 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="/build/favicon.ico" />
+    <link rel="shortcut icon" href="/coderkamp-build/favicon.ico" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="theme-color" content="#000000" />
-    <link rel="manifest" href="/build/manifest.json" />
+    <link rel="manifest" href="/coderkamp-build/manifest.json" />
     <title>CoderKamp</title>
-    <link href="/build/static/css/coderkamp.css" rel="stylesheet" />
+    <link href="/coderkamp-build/static/css/main.5ee3164f.chunk.css" rel="stylesheet" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script src="/build/static/js/coderkamp-zero.js"></script>
-    <script src="/build/static/js/coderkamp-first.js"></script>
-    <script src="/build/static/js/coderkamp-second.js"></script>
+    <!-- Coderkamp widget  -->
+    <div id="my-editor"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/ace.js"></script>
+    <script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
+    <script src="/coderkamp-build/static/js/123.chunk.js"></script>
+    <script src="/coderkamp-build/static/js/1.4ac93782.chunk.js"></script>
+    <script src="/coderkamp-build/static/js/main.3b936768.chunk.js"></script>
     <script>
       CoderKampApp.init({
-        width: '800px',
-        height: '600px',
-        elementId: 'root'
+        width: '600px',
+        height: '400px',
+        element: document.getElementById('my-editor')
       });
     </script>
   </body>

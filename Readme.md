@@ -5,4 +5,4 @@
 ### Step 3 : npm i -g static-server
 ### Step 4 : static-server
 ### Open browser at http://localhost:9080/ or other port mention in static-server
-### Open index.html file in editor and you can customize the editor 
+### Open index.html file in editor and you can customize the editor
